@@ -1,4 +1,6 @@
-<h1 align="center">Olá, eu sou o Victin 👋</h1>
+<p align="center">
+  <img src="./assets/header.svg" alt="Olá, eu sou o Victin 👋" width="100%"/>
+</p>
 
 <p align="center">
   <img src="./assets/terminal.svg" alt="whoami — Victin Anjos" width="100%"/>

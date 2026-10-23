@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="150" viewBox="0 0 860 150">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a5b4fc"/>
+      <stop offset=".5" stop-color="#c4a7e7"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="gs" spreadMethod="reflect" x1="0" y1="0" x2=".5" y2="0">
+      <stop offset="0" stop-color="#a5b4fc"/><stop offset="1" stop-color="#f0abfc"/>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values=".5;1.5;.5" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="150" y="20" height="80" width="0">
+      <animate attributeName="width" values="0.0;26.0;52.0;78.0;104.0;130.0;156.0;182.0;208.0;234.0;260.0;286.0;312.0;338.0;364.0;390.0;416.0;442.0;468.0;494.0;520.0;520.0;494.0;468.0;442.0;416.0;390.0;364.0;338.0;312.0;286.0;260.0;234.0;208.0;182.0;156.0;130.0;104.0;78.0;52.0;26.0;0.0;0.0" keyTimes="0.0000;0.0157;0.0314;0.0471;0.0629;0.0786;0.0943;0.1100;0.1257;0.1414;0.1571;0.1729;0.1886;0.2043;0.2200;0.2357;0.2514;0.2671;0.2829;0.2986;0.3143;0.8000;0.8071;0.8143;0.8214;0.8286;0.8357;0.8429;0.8500;0.8571;0.8643;0.8714;0.8786;0.8857;0.8929;0.9000;0.9071;0.9143;0.9214;0.9286;0.9357;0.9429;1.0000" dur="7.0s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .h { font-family: 'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif; font-weight: 800; font-size: 46px; }
+    .s { font-family: 'JetBrains Mono','Consolas','Courier New',monospace; font-size: 15px; fill: #8b949e; }
+  </style>
+
+  <text x="150" y="78" class="h" fill="url(#gs)" textLength="520" lengthAdjust="spacingAndGlyphs" clip-path="url(#c)" filter="url(#glow)">Olá, eu sou o Victin</text>
+
+  <rect x="150" y="36" width="4" height="50" rx="2" fill="#a5b4fc">
+    <animate attributeName="x" values="154.0;180.0;206.0;232.0;258.0;284.0;310.0;336.0;362.0;388.0;414.0;440.0;466.0;492.0;518.0;544.0;570.0;596.0;622.0;648.0;674.0;674.0;648.0;622.0;596.0;570.0;544.0;518.0;492.0;466.0;440.0;414.0;388.0;362.0;336.0;310.0;284.0;258.0;232.0;206.0;180.0;154.0;154.0" keyTimes="0.0000;0.0157;0.0314;0.0471;0.0629;0.0786;0.0943;0.1100;0.1257;0.1414;0.1571;0.1729;0.1886;0.2043;0.2200;0.2357;0.2514;0.2671;0.2829;0.2986;0.3143;0.8000;0.8071;0.8143;0.8214;0.8286;0.8357;0.8429;0.8500;0.8571;0.8643;0.8714;0.8786;0.8857;0.8929;0.9000;0.9071;0.9143;0.9214;0.9286;0.9357;0.9429;1.0000" dur="7.0s" calcMode="discrete" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur=".8s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(718,64)">
+    <text x="0" y="0" font-size="40" text-anchor="middle" dominant-baseline="central">👋
+      <animateTransform attributeName="transform" type="rotate" values="0 6 14;18 6 14;-8 6 14;18 6 14;0 6 14;0 6 14" keyTimes="0;.1;.2;.3;.4;1" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="430" y="122" text-anchor="middle" class="s" opacity="0">
+    &lt;full-stack dev /&gt;  ·  React  ·  TypeScript  ·  Supabase
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.3;.38;.8;.9;1" dur="7.0s" repeatCount="indefinite"/>
+  </text>
+  <rect x="330" y="134" height="2" rx="1" fill="url(#g)" width="200" opacity=".8">
+    <animate attributeName="width" values="0;200;200;0" keyTimes="0;.35;.85;1" dur="7.0s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="430;330;330;430" keyTimes="0;.35;.85;1" dur="7.0s" repeatCount="indefinite"/>
+  </rect>
+</svg>
