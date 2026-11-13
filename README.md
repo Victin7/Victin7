@@ -19,13 +19,27 @@
 
 ### 🚀 Projetos em destaque
 
+| Projeto | Sobre | Links |
+|---|---|---|
+| **Colevo** | Salas para a turma da faculdade organizar provas, entregas, lembretes e materiais. Usado pela minha turma de ADS | [código](https://github.com/Victin7/Colevo) · [abrir](https://victin7.github.io/Colevo/) |
+| **Europa Manutenção** | Gestão de manutenção predial criada na administração do Condomínio Europa e usada no dia a dia | [código](https://github.com/Victin7/europa-manutencao) · [abrir](https://victin7.github.io/europa-manutencao/) |
+| **PLATTO.A** | SaaS de cardápios digitais com pratos em 3D, acessados pelo QR Code da mesa | [apresentação](https://github.com/Victin7/platto.a-apresentacao) |
+| **NEXO** | Planejador diário com tarefas, hábitos, metas, pomodoro e finanças, sincronizado entre aparelhos | [código](https://github.com/Victin7/NEXO) · [abrir](https://nexo-eight-psi.vercel.app) |
+| **StockWise** | SaaS de gestão de estoque para pequenas e médias empresas | [código](https://github.com/Victin7/Stockwise) |
+
+### 🔒 Projetos com código privado
+
 | Projeto | Sobre |
 |---|---|
-| **[NEXO](https://github.com/Victin7/nexo)** | App de hábitos, metas e finanças pessoais |
-| **[StockWise](https://github.com/Victin7/stockwise)** | SaaS de gestão de estoque para pequenas e médias empresas |
-| **AnjosUp** | Plataforma de gamificação e engajamento para equipes de telemarketing |
-| **CineAnjos** | App para avaliar filmes e séries, no estilo Letterboxd |
-| **Europa Manutenção** | Sistema de gestão de manutenção para condomínios |
+| **BossFit AI** | Plataforma fitness com coach de IA, treinos, nutrição e gamificação (web/PWA + API no Railway) |
+| **Europa Manutenção v2** | Nova versão do sistema do condomínio: TanStack Start, Supabase e Vercel |
+| **Prumo** | Finanças pessoais para CLT e autônomos: quanto vai sobrar no mês, contas fixas e metas |
+| **PLATTO.A** | Plataforma multi-restaurante do cardápio 3D |
+
+### 🧪 Em desenvolvimento
+
+- **AnjosUp**: gamificação e engajamento para equipes de telemarketing
+- **CineAnjos**: app para avaliar filmes e séries, no estilo Letterboxd
 
 ---
 
@@ -33,6 +47,7 @@
 
 <p>
   <a href="https://linkedin.com/in/victor-s-anjos"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://victin-studio.vercel.app"><img src="https://img.shields.io/badge/Portfólio-Victin--Studio-111827?style=for-the-badge"/></a>
   <a href="mailto:victor.vitinho1011@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
