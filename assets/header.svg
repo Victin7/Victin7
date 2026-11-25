@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="150" viewBox="0 0 860 150">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a5b4fc"/>
-      <stop offset=".5" stop-color="#c4a7e7"/>
-      <stop offset="1" stop-color="#7dd3fc"/>
+      <stop offset="0" stop-color="#4da3ff"/>
+      <stop offset=".5" stop-color="#1f7bff"/>
+      <stop offset="1" stop-color="#9fd3ff"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="gs" spreadMethod="reflect" x1="0" y1="0" x2=".5" y2="0">
-      <stop offset="0" stop-color="#a5b4fc"/><stop offset="1" stop-color="#f0abfc"/>
+      <stop offset="0" stop-color="#4da3ff"/><stop offset="1" stop-color="#cfe8ff"/>
       <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="x2" values=".5;1.5;.5" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
@@ -18,7 +18,24 @@
       <feGaussianBlur stdDeviation="6" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="b1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd3ff"/><stop offset=".55" stop-color="#1f7bff"/><stop offset="1" stop-color="#0b3fbf"/>
+    </linearGradient>
+    <linearGradient id="arco" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f7bff" stop-opacity="0"/><stop offset=".5" stop-color="#4da3ff"/><stop offset="1" stop-color="#1f7bff" stop-opacity="0"/>
+    </linearGradient>
   </defs>
+  <path d="M-20 34 Q 120 -6 300 4" fill="none" stroke="url(#arco)" stroke-width="2" filter="url(#glow)" opacity=".7">
+    <animate attributeName="opacity" values=".35;.8;.35" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M560 146 Q 740 156 880 116" fill="none" stroke="url(#arco)" stroke-width="2" filter="url(#glow)" opacity=".7">
+    <animate attributeName="opacity" values=".8;.35;.8" dur="4s" repeatCount="indefinite"/>
+  </path>
   <style>
     .h { font-family: 'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif; font-weight: 800; font-size: 46px; }
     .s { font-family: 'JetBrains Mono','Consolas','Courier New',monospace; font-size: 15px; fill: #8b949e; }
@@ -26,15 +43,20 @@
 
   <text x="150" y="78" class="h" fill="url(#gs)" textLength="520" lengthAdjust="spacingAndGlyphs" clip-path="url(#c)" filter="url(#glow)">Olá, eu sou o Victin</text>
 
-  <rect x="150" y="36" width="4" height="50" rx="2" fill="#a5b4fc">
+  <rect x="150" y="36" width="4" height="50" rx="2" fill="#4da3ff">
     <animate attributeName="x" values="154.0;180.0;206.0;232.0;258.0;284.0;310.0;336.0;362.0;388.0;414.0;440.0;466.0;492.0;518.0;544.0;570.0;596.0;622.0;648.0;674.0;674.0;648.0;622.0;596.0;570.0;544.0;518.0;492.0;466.0;440.0;414.0;388.0;362.0;336.0;310.0;284.0;258.0;232.0;206.0;180.0;154.0;154.0" keyTimes="0.0000;0.0157;0.0314;0.0471;0.0629;0.0786;0.0943;0.1100;0.1257;0.1414;0.1571;0.1729;0.1886;0.2043;0.2200;0.2357;0.2514;0.2671;0.2829;0.2986;0.3143;0.8000;0.8071;0.8143;0.8214;0.8286;0.8357;0.8429;0.8500;0.8571;0.8643;0.8714;0.8786;0.8857;0.8929;0.9000;0.9071;0.9143;0.9214;0.9286;0.9357;0.9429;1.0000" dur="7.0s" calcMode="discrete" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur=".8s" repeatCount="indefinite"/>
   </rect>
 
-  <g transform="translate(718,64)">
-    <text x="0" y="0" font-size="40" text-anchor="middle" dominant-baseline="central">👋
-      <animateTransform attributeName="transform" type="rotate" values="0 6 14;18 6 14;-8 6 14;18 6 14;0 6 14;0 6 14" keyTimes="0;.1;.2;.3;.4;1" dur="2.4s" repeatCount="indefinite"/>
-    </text>
+  <!-- emblema V7: dois cortes em V com o 7 encaixado no vértice -->
+  <g transform="translate(740,62)" filter="url(#neon)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="2.6s" repeatCount="indefinite"/>
+      <path d="M-34 -26 L-20 -26 L0 12 L20 -26 L34 -26 L6 30 L-6 30 Z" fill="url(#face)" stroke="#cfe8ff" stroke-width="1.4" stroke-linejoin="miter"/>
+      <path d="M-11 -26 L11 -26 L11 -19 L3 -2 L-4 -2 L3 -18 L-11 -18 Z" fill="#0d1117" stroke="#9fd3ff" stroke-width="1.2" stroke-linejoin="miter"/>
+      <path d="M-34 -26 L-20 -26 L0 12" fill="none" stroke="#ffffff" stroke-width="1.2" opacity=".85"/>
+    </g>
+    <animate attributeName="opacity" values=".85;1;.85" dur="2.6s" repeatCount="indefinite"/>
   </g>
 
   <text x="430" y="122" text-anchor="middle" class="s" opacity="0">

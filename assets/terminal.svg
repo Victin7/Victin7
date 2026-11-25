@@ -2,9 +2,9 @@
   <style>
     .t { font-family: 'JetBrains Mono','Fira Code','Consolas','Courier New',monospace; font-size: 13.5px; fill: #c9d1d9; white-space: pre; }
     .h { fill: #f0f6fc; font-weight: 700; }
-    .a { fill: #a5b4fc; font-weight: 700; }
+    .a { fill: #4da3ff; font-weight: 700; }
     .m { fill: #8b949e; }
-    .p { fill: #c4a7e7; }
+    .p { fill: #7cc4ff; }
     .art { font-family: 'Consolas','Courier New',monospace; font-size: 15px; fill: #e6edf3; white-space: pre; }
     .cur { animation: blink 1s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
@@ -27,7 +27,7 @@
   <!-- painel direito -->
   <g transform="translate(22,0)">
   <text x="330" y="84" class="t a">victin7 $</text>
-  <line x1="412" y1="80" x2="620" y2="80" stroke="#a5b4fc" stroke-width="1"/>
+  <line x1="412" y1="80" x2="620" y2="80" stroke="#4da3ff" stroke-width="1"/>
   <text x="420" y="110" class="t m" xml:space="preserve">┌ whoami ┐</text>
 
   <text x="330" y="138" class="t h">Profile:</text>
