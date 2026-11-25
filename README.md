@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Olá, eu sou o Victin 👋" width="100%"/>
+  <img src="./assets/header.svg" alt="Olá, eu sou o Victin" width="100%"/>
 </p>
 
 <p align="center">
@@ -7,25 +7,55 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Supabase-1C1C1C?style=for-the-badge&logo=supabase&logoColor=3ECF8E"/>
-  <img src="https://img.shields.io/badge/TanStack-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
-  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=4da3ff"/>
+  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=4da3ff"/>
+  <img src="https://img.shields.io/badge/Supabase-0d1117?style=for-the-badge&logo=supabase&logoColor=4da3ff"/>
+  <img src="https://img.shields.io/badge/TanStack-0d1117?style=for-the-badge&logo=reactquery&logoColor=4da3ff"/>
+  <img src="https://img.shields.io/badge/shadcn%2Fui-0d1117?style=for-the-badge&logo=shadcnui&logoColor=4da3ff"/>
+  <img src="https://img.shields.io/badge/Tailwind-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=4da3ff"/>
 </p>
 
----
+### 🎬 Meu portfólio em 3D
+
+<p align="center">
+  <a href="https://victin-studio.vercel.app"><img src="./assets/victin-studio.gif" alt="Victin-Studio: meu retrato se montando em blocos 3D" width="100%"/></a>
+  <br/><sub>Clique para abrir o <b>Victin-Studio</b> e role a página para ver o retrato virar os projetos.</sub>
+</p>
 
 ### 🚀 Projetos em destaque
 
-| Projeto | Sobre | Links |
-|---|---|---|
-| **Colevo** | Salas para a turma da faculdade organizar provas, entregas, lembretes e materiais. Usado pela minha turma de ADS | [código](https://github.com/Victin7/Colevo) · [abrir](https://victin7.github.io/Colevo/) |
-| **Europa Manutenção** | Gestão de manutenção predial criada na administração do Condomínio Europa e usada no dia a dia | [código](https://github.com/Victin7/europa-manutencao) · [abrir](https://victin7.github.io/europa-manutencao/) |
-| **PLATTO.A** | SaaS de cardápios digitais com pratos em 3D, acessados pelo QR Code da mesa (código privado) | [apresentação](https://github.com/Victin7/platto.a-apresentacao) |
-| **NEXO** | Planejador diário com tarefas, hábitos, metas, pomodoro e finanças, sincronizado entre aparelhos | [código](https://github.com/Victin7/NEXO) · [abrir](https://nexo-eight-psi.vercel.app) |
-| **StockWise** | SaaS de gestão de estoque para pequenas e médias empresas | [código](https://github.com/Victin7/Stockwise) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://victin7.github.io/Colevo/"><img src="./assets/projetos/colevo.jpg" alt="Colevo" width="100%"/></a>
+      <h4>Colevo</h4>
+      <p>Salas para a turma da faculdade organizar provas, entregas, lembretes e materiais. Usado pela minha turma de ADS.</p>
+      <a href="https://victin7.github.io/Colevo/">abrir</a> · <a href="https://github.com/Victin7/Colevo">código</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://victin7.github.io/europa-manutencao/"><img src="./assets/projetos/europa-manutencao.jpg" alt="Europa Manutenção" width="100%"/></a>
+      <h4>Europa Manutenção</h4>
+      <p>Gestão de manutenção predial criada na administração do Condomínio Europa e usada no dia a dia.</p>
+      <a href="https://victin7.github.io/europa-manutencao/">abrir</a> · <a href="https://github.com/Victin7/europa-manutencao">código</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://platto-a.vercel.app"><img src="./assets/projetos/platto.jpg" alt="PLATTO.A" width="100%"/></a>
+      <h4>PLATTO.A</h4>
+      <p>SaaS de cardápios digitais com pratos em 3D, acessados pelo QR Code da mesa. Código privado.</p>
+      <a href="https://platto-a.vercel.app">abrir</a> · <a href="https://github.com/Victin7/platto.a-apresentacao">apresentação</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://nexo-eight-psi.vercel.app"><img src="./assets/projetos/nexo.jpg" alt="NEXO" width="100%"/></a>
+      <h4>NEXO</h4>
+      <p>Planejador diário com tarefas, hábitos, metas, pomodoro e finanças, sincronizado entre aparelhos.</p>
+      <a href="https://nexo-eight-psi.vercel.app">abrir</a> · <a href="https://github.com/Victin7/NEXO">código</a>
+    </td>
+  </tr>
+</table>
+
+Também: **[StockWise](https://github.com/Victin7/Stockwise)**, SaaS de gestão de estoque para pequenas e médias empresas.
 
 ### 🔒 Projetos com código privado
 
@@ -40,17 +70,28 @@
 - **AnjosUp**: gamificação e engajamento para equipes de telemarketing
 - **CineAnjos**: app para avaliar filmes e séries, no estilo Letterboxd
 
----
+### ⚡ Mexendo agora
+
+<!--AGORA:INICIO-->
+<!--AGORA:FIM-->
+
+<sub>Lista atualizada sozinha todo dia com os repositórios em que mexi por último.</sub>
+
+### 🕸️ Meu ano no GitHub
+
+<p align="center">
+  <img src="./assets/aranha.svg" alt="Gráfico de contribuições com uma aranha marcando os dias mais fortes" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="./assets/stats.svg" alt="Estatísticas" width="49%"/>
+  <img src="./assets/linguagens.svg" alt="Linguagens" width="49%"/>
+</p>
 
 ### 📫 Contato
 
 <p>
-  <a href="https://linkedin.com/in/victor-s-anjos"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://victin-studio.vercel.app"><img src="https://img.shields.io/badge/Portfólio-Victin--Studio-111827?style=for-the-badge"/></a>
-  <a href="mailto:victor.vitinho1011@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Victin7&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victin7&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+  <a href="https://linkedin.com/in/victor-s-anjos"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=4da3ff"/></a>
+  <a href="https://victin-studio.vercel.app"><img src="https://img.shields.io/badge/Portfólio-Victin--Studio-0d1117?style=for-the-badge&labelColor=0d1117&color=1f7bff"/></a>
+  <a href="mailto:victor.vitinho1011@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=4da3ff"/></a>
 </p>

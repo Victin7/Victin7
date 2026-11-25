@@ -79,7 +79,7 @@
 
   <line x1="640" y1="350" x2="640" y2="460" stroke="#30363d"/>
   <text x="656" y="362" class="t h">Status</text>
-  <text x="656" y="384" class="t p">* buscando *</text>
-  <text x="656" y="406" class="t">estágio em dev</text>
+  <text x="656" y="384" class="t p">* construindo *</text>
+  <text x="656" y="406" class="t">PLATTO.A</text>
   </g>
 </svg>
