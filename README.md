@@ -73,8 +73,8 @@ Também: **[StockWise](https://github.com/Victin7/Stockwise)**, SaaS de gestão 
 ### ⚡ Mexendo agora
 
 <!--AGORA:INICIO-->
-- **[Simulado-Front-End](https://github.com/Victin7/Simulado-Front-End)**: sem descrição · <sub>atualizado hoje</sub>
-- **[Simulado-Dados](https://github.com/Victin7/Simulado-Dados)**: sem descrição · <sub>atualizado hoje</sub>
+- **[Simulado-Front-End](https://github.com/Victin7/Simulado-Front-End)** · <sub>atualizado hoje</sub>
+- **[Simulado-Dados](https://github.com/Victin7/Simulado-Dados)** · <sub>atualizado hoje</sub>
 - **[platto.a-apresentacao](https://github.com/Victin7/platto.a-apresentacao)**: Material comercial do PLATTO.A: apresentação com pratos em 3D e slides para restaurantes. · <sub>atualizado há 13 dias</sub>
 - **[modelagem-dados](https://github.com/Victin7/modelagem-dados)**: simulação de banco de dados · <sub>atualizado há 14 dias</sub>
 <!--AGORA:FIM-->
