@@ -163,7 +163,7 @@ function secaoAgora(repos) {
   const hoje = Date.now();
   const quando = (d) => { const dias = Math.floor((hoje - new Date(d).getTime()) / 864e5); return dias <= 0 ? "hoje" : dias === 1 ? "ontem" : `há ${dias} dias`; };
   const lista = repos.filter((r) => !r.fork && r.name !== USUARIO).slice(0, 4)
-    .map((r) => `- **[${r.name}](${r.html_url})**: ${r.description ? r.description.replace(/\s+$/, "") : "sem descrição"} · <sub>atualizado ${quando(r.pushed_at)}</sub>`).join("\n");
+    .map((r) => `- **[${r.name}](${r.html_url})**${r.description ? ": " + r.description.replace(/\s+$/, "") : ""} · <sub>atualizado ${quando(r.pushed_at)}</sub>`).join("\n");
   return `<!--AGORA:INICIO-->\n${lista}\n<!--AGORA:FIM-->`;
 }
 
