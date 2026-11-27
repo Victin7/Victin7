@@ -73,10 +73,10 @@ Também: **[StockWise](https://github.com/Victin7/Stockwise)**, SaaS de gestão 
 ### ⚡ Mexendo agora
 
 <!--AGORA:INICIO-->
-- **[Simulado-Dados](https://github.com/Victin7/Simulado-Dados)** · <sub>atualizado hoje</sub>
-- **[Colevo](https://github.com/Victin7/Colevo)**: Salas para a turma da faculdade se organizar: provas, entregas, lembretes por e-mail e materiais em um só lugar. · <sub>atualizado ontem</sub>
-- **[Simulado-Front-End](https://github.com/Victin7/Simulado-Front-End)** · <sub>atualizado ontem</sub>
-- **[platto.a-apresentacao](https://github.com/Victin7/platto.a-apresentacao)**: Material comercial do PLATTO.A: apresentação com pratos em 3D e slides para restaurantes. · <sub>atualizado há 14 dias</sub>
+- **[Colevo](https://github.com/Victin7/Colevo)**: Salas para a turma da faculdade se organizar: provas, entregas, lembretes por e-mail e materiais em um só lugar. · <sub>atualizado hoje</sub>
+- **[Pata-Amiga](https://github.com/Victin7/Pata-Amiga)**: Site institucional da ONG fictícia Pata Amiga, contra a fome e o abandono de pets. Projeto Integrador da UNICID. · <sub>atualizado hoje</sub>
+- **[Victin-Anjos](https://github.com/Victin7/Victin-Anjos)**: Esse repositório irá dizer um pouco sobre mim. · <sub>atualizado hoje</sub>
+- **[Simulado-Front-End](https://github.com/Victin7/Simulado-Front-End)** · <sub>atualizado hoje</sub>
 <!--AGORA:FIM-->
 
 <sub>Lista atualizada sozinha todo dia com os repositórios em que mexi por último.</sub>
